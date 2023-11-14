@@ -5,7 +5,7 @@ import Cursor from "../src/components/Cursor";
 import Preloader from "../src/components/Pre";
 import "./App.css";
 import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import Home from "./components/Homepage";
 
@@ -30,7 +30,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
