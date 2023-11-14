@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-// import Cursor from "../src/components/Cursor";
-// import Preloader from "../src/components/Pre";
+import Cursor from "../src/components/Cursor";
+import Preloader from "../src/components/Pre";
 import "./App.css";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
@@ -22,9 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Cursor /> */}
+      <Cursor />
       <Router>
-        {/* <Preloader load={load} /> */}
+        <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path="/" element={<Home />} />

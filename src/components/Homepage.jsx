@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-// import Text from '../components/Text'
+import Text from '../components/Text'
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -17,7 +17,7 @@ function Home() {
             <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
             <h2 className='nametext'>Im Fancisco Garcia Matar</h2>
             <span></span>
-            {/* <Text /> */}
+            <Text />
             <button onClick={() => {
               window.open("https://github.com/fgarciamatar");
             }}
