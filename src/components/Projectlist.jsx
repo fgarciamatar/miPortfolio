@@ -9,6 +9,11 @@ import countries1 from "./../Assets/images/countries1.png"
 import countries2 from "./../Assets/images/countries2.png"
 import countries3 from "./../Assets/images/countries3.png"
 import countries4 from "./../Assets/images/countries4.png"
+import ram1 from "./../Assets/images/ram 1.png"
+import ram2 from "./../Assets/images/ram 1.png"
+import ram3 from "./../Assets/images/ram 1.png"
+import ram4 from "./../Assets/images/ram 1.png"
+import ram5 from "./../Assets/images/ram 1.png"
 
 import "../pages/style.css";
 
@@ -48,11 +53,11 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath1={amc1}
-                imgPath2={amc2}
-                imgPath3={amc3}
-                imgPath4={amc4}
-                imgPath5={amc5}
+                imgPath1={ram1}
+                imgPath2={ram2}
+                imgPath3={ram3}
+                imgPath4={ram4}
+                imgPath5={ram5}
                 isBlog={false}
                 title="Rick And Morty App"
                 description="Creación de un prototipo de aplicación de página única (SPA) con el propósito de exhibir, buscar , marcar como favoritas , organizar y filtrar más de 800 tarjetas de personajes pertenecientes a la serie de televisión Rick and Morty. Tecnologías utilizadas: Front-end basado en React y Redux, Back-end desarrollado con Express y base de datos implementada en PostgreSQL con Sequelize como ORM."
