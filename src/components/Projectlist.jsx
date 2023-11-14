@@ -56,7 +56,7 @@ function Projectlist() {
                 isBlog={false}
                 title="Rick And Morty App"
                 description="Creación de un prototipo de aplicación de página única (SPA) con el propósito de exhibir, buscar , marcar como favoritas , organizar y filtrar más de 800 tarjetas de personajes pertenecientes a la serie de televisión Rick and Morty. Tecnologías utilizadas: Front-end basado en React y Redux, Back-end desarrollado con Express y base de datos implementada en PostgreSQL con Sequelize como ORM."
-                ghLink="https://react-netflixweb-clone.netlify.app/"
+                ghLink="https://github.com/fgarciamatar/Rick-and-Morty"
               />
             </Col>
           </Row>
