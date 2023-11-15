@@ -11,7 +11,7 @@ import typescript from "../Assets/svg/skills/typescript.svg";
 import vitejs from "../Assets/svg/skills/vitejs.svg";
 import vue from "../Assets/svg/skills/vue.svg";
 import Express from "../Assets/images/express.png";
-import node from "../Assets/images/node.png";
+import node from "../Assets/images/node.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
