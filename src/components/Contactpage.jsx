@@ -35,6 +35,7 @@ function Contactpage() {
       <Form ref={refForm} onSubmit={handleSubmit} className="containerContact">
         <div>
           <h2 className="contactame">Contactame</h2>
+          
         </div>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label className="labelContact">Nombre:</Form.Label>
@@ -70,6 +71,7 @@ function Contactpage() {
           />
         </Form.Group>
         <button className="contactBoton">Enviar</button>
+        <h3 className="email">Email: fgarciamatar@gmail.com</h3>
       </Form>
       <Container>
         <span></span>

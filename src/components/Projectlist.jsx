@@ -32,7 +32,7 @@ function Projectlist() {
                 imgPath5={amc5}
                 isBlog={false}
                 title="AMC-Amoblamientos"
-                description="AMC-Amoblamientos es un proyecto ecommerce desarrollado como parte del proyecto final del bootcamp Soy Henry. Para su creación, nuestro equipo utilizó tecnologías como React, Bootstrap, Node, Express.js y PostgreSQL. Este proyecto incluye un carrito de compras funcional, pasarela de pagos atraves de Mercado Pago , permanencia de datos, control de stock, registro de usuarios y un panel de administración que permite a los administradores controlar productos, usuarios y ventas."
+                description="AMC-Amoblamientos representa un proyecto ecommerce desarrollado como parte del proyecto final del bootcamp 'Soy Henry'. Se emplearon tecnologías como React, Bootstrap, Node, Express.js y PostgreSQL. El proyecto abarca un carrito de compras , una pasarela de pagos mediante Mercado Pago, persistencia de datos, gestión de stock, registro de usuarios y un panel de administración que concede a los administradores supervisar productos, usuarios y ventas. Mis responsabilidades principales se centraron en el desarrollo del frontend, la implementación de estilos, la gestión del almacenamiento local, la creación del panel de control administrativo y algunas rutas en el backend."
                 ghLink="https://msc-amoblamientos.vercel.app/home"
               />
             </Col>

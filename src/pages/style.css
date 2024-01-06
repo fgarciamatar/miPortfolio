@@ -463,12 +463,15 @@
   background-color: #191919a0;
   width: 60%;
   text-align: center;
-
+  padding-bottom: 1em;
 }
 .contactame{
   border-radius: 0.5em 0.5em 0em 0em !important;
   color: #e8e8e8 !important;
   background-color: #191919;
+}
+.email {
+  color: #fff;
 }
 .labelContact {
   color: #e8e8e8 !important;
