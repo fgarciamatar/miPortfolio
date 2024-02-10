@@ -13,7 +13,7 @@
 }
 .sticky {
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(44, 2, 255, 0.972) !important;
   backdrop-filter: blur(15px) !important;
 }
 .navbar-toggler {
@@ -88,7 +88,8 @@
 }
 
 .nav-link:hover {
-  color: #191919 !important;
+  color: #0033ff !important;
+  box-shadow: rgba(0, 0, 0, 0.215) 0px 3px 10px;
 }
 .resumebtn {
   width: 120px;
@@ -98,7 +99,7 @@
   font-size: 1.1rem !important;
   letter-spacing: 1px !important;
   color: #e8e8e8 !important;
-  background-image: linear-gradient(43deg, rgb(221, 86, 208) 0%, rgb(121, 133, 243) 100%);
+  background-image: linear-gradient(43deg, rgb(170, 9, 154) 0%, rgb(61, 79, 240) 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none !important;
 }
@@ -143,15 +144,8 @@
 .homepagebackground {
   width: 100%;
   min-height: 100vh;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    rgb(203, 73, 215) 0%,
-    rgb(38, 61, 234) 46%,
-    rgb(241, 35, 12)100%
-  );
-
-
+  /* background-color: #fafafa; */
+  background-image: linear-gradient(to left bottom, #0d0d0d, #1e1e1e, #2d2d2d, #3d3d3d, #4e4e4e);
 }
 .row {
   padding-top: 80px;
@@ -232,8 +226,8 @@
   border-radius: 5px;
 }
 .socailmediabtn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  background-color: rgba(87, 86, 86, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.702) 0px 5px 15px !important;
   opacity: 0.8;
 }
 .icon {
@@ -280,22 +274,17 @@
   height: 100%;
   min-height: 100vh;
   background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    rgb(203, 73, 215) 0%,
-    rgb(38, 61, 234) 46%,
-    rgb(241, 35, 12)100%
-  );
+  background-image: linear-gradient(to left bottom, #0d0d0d, #1e1e1e, #2d2d2d, #3d3d3d, #4e4e4e);
   padding-top: 110px;
 }
 .textbackground {
-  color: #fff;
+  color: #e5dede;
   width: 100%;
   height: 100%;
   padding: 1rem;
   background-color: transparent;
   border-radius: 10px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  box-shadow: rgba(178, 172, 172, 0.54) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
 .aboutmetext {
@@ -344,8 +333,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: rgb(17, 17, 26) 2px 4px 16px;
-  border: 1px solid rgba(0, 0, 0, 0.404);
+  box-shadow: rgb(70, 69, 69) 2px 4px 16px;
+  border: 1px solid rgba(99, 97, 97, 0.404);
 }
 @media (max-width: 767px) {
   .aboutpagebackground {
@@ -364,12 +353,7 @@
   width: 100%;
   height: 100%;
   background-color: #4d64d8;
-  background-image: linear-gradient(
-    43deg,
-    rgb(203, 73, 215) 0%,
-    rgb(38, 61, 234) 46%,
-    rgb(241, 35, 12)100%
-  );
+  background-image: linear-gradient(to left bottom, #0d0d0d, #1e1e1e, #2d2d2d, #3d3d3d, #4e4e4e);
 }
 .project-section {
   position: relative !important;
@@ -398,7 +382,6 @@
   border-radius: 15px;
 }
 .project-card-view:hover {
-  
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -426,9 +409,9 @@
 }
 
 .btn-primary:hover {
-  color: #000000 !important;
+  color: #0033ff !important;
   background-color: transparent !important;
-  border-color: #000000 !important;
+  border-color: #0033ff !important;
 }
 .btn:focus {
   outline: none !important;
@@ -448,12 +431,7 @@
   height: 100%;
   min-height: 100vh;
   background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    rgb(203, 73, 215) 0%,
-    rgb(38, 61, 234) 46%,
-    rgb(241, 35, 12)100%
-  );
+  background-image: linear-gradient(to left bottom, #0d0d0d, #1e1e1e, #2d2d2d, #3d3d3d, #4e4e4e);
   padding-top: 110px;
 }
 
@@ -490,11 +468,16 @@
     font-size: 1.1rem !important;
     letter-spacing: 1px !important;
     color: #e8e8e8 !important;
-    background-image: linear-gradient(43deg, rgb(221, 86, 208) 0%, rgb(121, 133, 243) 100%);
+    background-image:linear-gradient(43deg, rgb(170, 9, 154) 0%, rgb(61, 79, 240) 100%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
     border: none !important;
 }
-
+.contactBoton:hover {
+  
+  background-color: transparent !important;
+  box-shadow: rgba(224, 224, 224, 0.402) 0px 6px 16px,
+  rgba(221, 220, 220, 0.404) 0px 8px 24px, rgba(200, 200, 203, 0.357) 0px 16px 56px !important;
+}
 /* .copyright {
   margin-top: 1em;
   position: absolute;
