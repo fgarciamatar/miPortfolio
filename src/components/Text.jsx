@@ -4,13 +4,13 @@ import "../pages/style.css";
 
 function Text() {
   return (
-    <Typewriter
+    <Typewriter 
       options={{
         strings: [
-          "React Js Developer",
+          "Frontend React Developer",
           "Full stack Developer",
-          "Front End Developer",
-          "Back End Developer",
+          "Frontend Developer",
+          "Backend Node Developer",
         ],
         autoStart: true,
         loop: true,

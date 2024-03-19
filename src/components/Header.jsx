@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import "../pages/style.css";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
+  const location = useLocation();
+  
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);

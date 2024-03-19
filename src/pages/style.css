@@ -202,6 +202,13 @@
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+.techText {
+  padding-top: 120px;
+  font-size: 2.4em !important;
+  color: #1d0cde !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
 .nametext {
   font-size: 2em !important;
   color: #ffffff !important;
@@ -392,6 +399,10 @@
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+}
+.small-image {
+  max-height: 200px; /* ajusta el tamaño como prefieras */
+  object-fit: contain; /* para mantener la relación de aspecto */
 }
 .viewbtn {
   display: flex !important;

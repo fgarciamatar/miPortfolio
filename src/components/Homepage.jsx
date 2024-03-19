@@ -13,7 +13,7 @@ function Home() {
             <h2 className="headtext">
               Hello <span className="wave">👋 </span>
             </h2>
-            <h2 className="nametext">Im Fancisco Garcia Matar</h2>
+            <h2 className="nametext">I am Fancisco Garcia Matar</h2>
             <span></span>
             <Text />
             <button
