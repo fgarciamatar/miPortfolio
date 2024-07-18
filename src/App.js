@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import ProjectDetail from "./pages/ProjectDetail"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Cursor from '../src/components/Cursor';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/project/:index" element={<ProjectDetail />} />
           </Routes>
         </div>
       </Router>

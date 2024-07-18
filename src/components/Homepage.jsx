@@ -3,6 +3,7 @@ import Text from "../components/Text";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "../pages/style.css";
+import Projectlist from "./Projectlist";
 
 function Home() {
   return (
@@ -35,11 +36,14 @@ function Home() {
               <FaLinkedinIn className="icon" />
             </button>
           </Col>
-
           <Col md={5}>
             <div className="imagedeveloper"></div>
           </Col>
         </Row>
+         <div className="margintop">
+          <h2 className="h2title">My Projects:</h2>
+        <Projectlist/>
+        </div>
       </Container>
     </div>
   );
