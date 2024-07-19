@@ -59,7 +59,7 @@ function ProjectCardMobile(props) {
           onClick={() => handleCardClick(props.index)}
           style={{ cursor: "pointer" }}
         >
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title className="title-project">{props.title}</Card.Title>
         </div>
         <Card.Title style={{ textAlign: "justify" }}>
           {props.typeProyect}

@@ -8,7 +8,7 @@ function Text() {
       options={{
         strings: [
           "Frontend React Developer",
-          "Full stack Developer",
+          "Mobile Developer",
           "Frontend Developer",
           "Backend Node Developer",
         ],
