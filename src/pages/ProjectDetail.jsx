@@ -1,12 +1,26 @@
 /* eslint-disable react/prop-types */
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
-import "../pages/style.css";
-import React from "react";
+import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa"; // Importa los íconos que necesitas
+import { SiExpress, SiPostgresql, SiRedux } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 import projects from "../data/ProyectData";
+import { BiLogoTypescript } from "react-icons/bi";
+import "../pages/style.css";
+const iconMapping = {
+  React: <FaReact />,
+  "React Native": <TbBrandReactNative />,
+  Github: <FaGithub />,
+  Redux: <SiRedux />,
+  Express: <SiExpress />,
+  Nodejs: <FaNodeJs />,
+  PostgreSQL: <SiPostgresql />,
+  Typescript: <BiLogoTypescript />,
+};
 
 function ProjectDetail() {
   const { index } = useParams();
@@ -70,19 +84,22 @@ function ProjectDetail() {
           <Card.Text className="project-detail-description">
             {project.description}
           </Card.Text>
+            <div className="project-skills-icons">
+              {project.skills.map((skill, index) => (
+                <span key={index}>{iconMapping[skill]}</span>
+              ))}
+            </div>
           <div className="project-detail-buttons">
-          <Button
-          className="viewbtn"
-          variant="primary"
-          href={project.link}
-          target="_blank"
-        >
-          View
-        </Button>
+            <Button
+              className="viewbtn"
+              variant="primary"
+              href={project.link}
+              target="_blank"
+            >
+              View
+            </Button>
           </div>
         </Card.Body>
-
-        
       </Card>
     </div>
   );

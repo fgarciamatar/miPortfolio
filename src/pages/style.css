@@ -96,11 +96,11 @@
   margin-left: 2rem !important;
   border-radius: 5px !important;
   padding: 0 20px !important;
-  font-size: 1.1rem !important;
+  font-size: 0.8rem !important;
   letter-spacing: 1px !important;
   color: #e8e8e8 !important;
   background-image: linear-gradient(43deg, rgb(170, 9, 154) 0%, rgb(61, 79, 240) 100%);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  box-shadow: rgba(0, 0, 0, 0.658) 0px 4px 4px;
   border: none !important;
 }
 
@@ -129,14 +129,7 @@
     align-items: center !important;
     justify-content: center !important;
   }
-  .resumebtn {
-    width: 200px !important;
-    display: block !important;
-    margin: 5px auto !important;
-    padding: 10px 0px !important;
-    font-size: 1.1rem !important;
-    letter-spacing: 1px !important;
-  }
+
 }
 
 /* Homepage style */
@@ -688,6 +681,21 @@
 }
 
 
+/*skills*/
+.project-skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-skills-icons span {
+  margin: 10px;
+  font-size: 2rem; /* Tamaño de los íconos */
+}
+
+
 /*mas */
 .margintop {
   margin-top: 150px; /* Ajusta el valor según tus necesidades */
@@ -696,3 +704,11 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
+.no-underline {
+  text-decoration: none;
+}
+.nav-link .nav-text,
+.resumebtn .nav-text {
+  margin-left: 8px; /* Ajusta el espacio según tus necesidades */
+}
+

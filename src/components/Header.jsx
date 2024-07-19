@@ -3,13 +3,19 @@ import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import { RiHome2Fill } from "react-icons/ri";
+import { GrProjects } from "react-icons/gr";
+import { RiContactsLine } from "react-icons/ri";
+import { AiOutlineMessage } from "react-icons/ai";
+import { IoMdDownload } from "react-icons/io";
+
 import "../pages/style.css";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const location = useLocation();
-  
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -50,7 +56,8 @@ function Header() {
               to="/"
               onClick={() => updateExpanded(false)}
             >
-              Home
+              <RiHome2Fill />
+              <span className="nav-text">Home</span>
             </NavLink>
           </Nav.Item>
           <Nav.Item>
@@ -59,7 +66,8 @@ function Header() {
               to="/about"
               onClick={() => updateExpanded(false)}
             >
-              About
+              <RiContactsLine />
+              <span className="nav-text">About</span>
             </NavLink>
           </Nav.Item>
           <Nav.Item>
@@ -68,7 +76,8 @@ function Header() {
               to="/project"
               onClick={() => updateExpanded(false)}
             >
-              Projects
+              <GrProjects />
+              <span className="nav-text">Projects</span>
             </NavLink>
           </Nav.Item>
 
@@ -78,19 +87,20 @@ function Header() {
               to="/contact"
               onClick={() => updateExpanded(false)}
             >
-              Contact
+              <AiOutlineMessage />
+              <span className="nav-text">Contact</span>
             </NavLink>
           </Nav.Item>
 
-          <Button
-            onClick={() => {
-              window.open(
-                "https://docs.google.com/document/d/1hty6wccUnU93aHImoJi351a-lNQN9H8eFA4Y-quVOes/edit?usp=sharing"
-              );
-            }}
-            className="resumebtn"
-          >
-            <span>Resume</span>
+          <Button className="resumebtn">
+            <a
+              href="/CV - Francisco Garcia Matar - Full Stack Web Developer. (1).pdf"
+              download
+              style={{ textDecoration: "none" }}
+            >
+              <IoMdDownload />
+              <span className="nav-text">Download CV</span>
+            </a>
           </Button>
         </Nav>
       </Navbar.Collapse>
